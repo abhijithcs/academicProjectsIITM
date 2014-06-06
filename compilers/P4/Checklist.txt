@@ -1,0 +1,22 @@
+<pre><p>
+1) Have you tarred + zipped the file as XXXXXXXX.P4.tar.gz (your 8-digit roll number) ? 
+YES
+2) Does your tar.gz file expand (by using the command tar xvzf) to the directory named XXXXXXXX (your 8-digit roll number) ?
+YES
+3) Does directory named XXXXXXXX(your 8-digit roll number) contain exactly one subdirectory named P4.
+YES
+4) Does your folder P4 contains P4.java, as the main file, that can be compiled using javac?
+YES
+5) Does your folder P4 contains Checklist.txt?
+YES
+6) Have you removed all the class files and jar files from your tar ball?
+YES
+7) Does your P4.java take input from Standard Input (for usage of redirection) ?
+YES
+8) Does your P4.java write output to Standard Output (for usage of redirection) ?
+YES
+9) Have you removed all the debugging messages that your program may output?
+YES
+10) Is (some part of) the assignment plagiarized? 
+NO
+</p></pre>

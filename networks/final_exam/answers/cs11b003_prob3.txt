@@ -1,0 +1,27 @@
+1. How many packets were captured?
+240
+2. How many of the packets were TCP packets?
+173
+3. What is the IP address of Tweety's buddy?
+64.12.24.50
+4. What is the screen name of Tweety?
+user1
+5. What is the screen name of Tweety’s IM buddy?
+gold03
+6. What was the first comment in the captured IM conversation?
+Here is the secret recipe.
+7. What is the name of the file Tweety transferred?
+recipe.docx
+8. What is the secret recipe?
+manfest.xml
+
+STRATEGIES:
+1. Used Wireshark which gave me total number packets.
+2. Created a filter 'TCP' in Wireshark which returned total number of TCP packets.
+3. It will be the Destination IP Address when the conversation was happening.
+4. Just before the start of a conversation, IM screen name can be seen.
+5. Just before the start of a conversation, IM screen name can be seen.
+6. Analysing SSL connection which has some English Words.
+7. Analysing protocols which are used for File Transfer.
+8. ..
+ 

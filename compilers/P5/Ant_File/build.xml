@@ -1,0 +1,13 @@
+<project name="MyAntFile">
+<target name="run" depends="build"> </target>
+
+	<target name="build">
+		<javac srcdir="./Ant_File/"/>
+	</target>
+
+	<target name="clean">
+		<delete>
+			<fileset dir="." includes = "**/*.class"></fileset>
+		</delete>
+	</target>
+</project>
